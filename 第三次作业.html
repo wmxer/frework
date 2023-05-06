@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: gray;
+            color: white;
+            padding: 15px;
+            margin-bottom: -10px;
+        }
+        .footer{
+            background-color: gray;
+            color: white;
+            padding: 15px;
+            float: left;
+            clear: both;
+            width: 95%;
+        }
+        .column{
+            float: left;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .menu{
+            width: 25%;
+            text-align: center;
+            clear: both;
+            padding-left: 0;
+        }
+        .content{
+            width: 75%;
+            text-indent: 40px;
+        }
+        .menu li{
+            padding: 10px;
+            margin-bottom: 8px;
+            background-color: cornflowerblue;
+            color: aliceblue;
+        }
+        .at{
+            padding-left: 0;
+            list-style-type: none;
+        }
+        .m{
+            padding-left: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+        .active{
+            background-color: red;
+        }
+        li a{
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            padding: 14px 16px;
+            float: left;
+        }
+        li a:hover{
+            background-color: black;
+        }
+        .list{
+            padding-left: 0;
+        }
+        .kk{
+            background-color: black;
+            height: 46px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>  
+    <div class="header">
+        <h1>Chania</h1>
+    </div>
+    <div class="kk">
+        <ul class="at">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+    <div>
+        <div class="column menu">
+            <ul class="m">
+                <li>The Fight</li>
+                <li>The City</li>
+                <li>The Island</li>
+                <li>The Food</li>
+            </ul>
+        </div>
+        <div class="column content">
+            <h1>The City</h1>
+            <p>Chania is the capital of Chania region on the island of Crete</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h>Footer Text</h>
+    </div>
+</body>
+</html>
