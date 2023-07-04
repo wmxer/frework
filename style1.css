@@ -1,0 +1,163 @@
+body {
+    background-color: #e0c2cc;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Wrapper */
+  #wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  /* Main */
+  #main .inner {
+    padding: 1em;
+    background-color: #e8e5b3;
+  }
+  
+  /* Header */
+  #header {
+    text-align: center;
+    padding-bottom: 1em;
+  }
+  
+  #header .logo {
+    font-size: 2em;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  #header .logo strong {
+    font-weight: bold;
+  }
+  
+  #header ul.icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 1.5em;
+  }
+  
+  #header ul.icons li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  #header ul.icons a {
+    display: inline-block;
+    background-color: #eee;
+    padding: 0.5em;
+    border-radius: 70%;
+  }
+  
+  #header ul.icons a:hover {
+    background-color: #ccc;
+  }
+  
+  /* 设置 banner 区域 */
+  #banner {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  /* 设置 banner 文本内容样式 */
+  #banner .content {
+    display: block;
+    width: 20%;
+  }
+  
+  /* 设置 banner 右侧图片样式 */
+  #banner .image {
+    display: block;
+    width: 10%;
+  }
+  
+  /* 设置特性区域 */
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* 设置特性项目样式 */
+  .features article {
+    flex: 1 1 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  /* 设置特性图标样式 */
+  .features article span {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* 设置特性标题样式 */
+  .features article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* 设置特性内容样式 */
+  .features article p {
+    color: #888;
+  }
+  
+  /* 设置帖子区域 */
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  /* 设置帖子样式 */
+  .posts article {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* 设置帖子标题样式 */
+  .posts article h3 {
+    margin: 0;
+  }
+  
+  /* 设置帖子图片样式 */
+  .posts article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  #search {
+    width: 950px; 
+    height: 100px; 
+    padding: 5px;
+    background-color: rgba(133, 125, 227, 0.621); 
+    border: none;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* 设置页脚 */
+  #footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
